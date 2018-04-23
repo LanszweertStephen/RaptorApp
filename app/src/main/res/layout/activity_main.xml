@@ -1,19 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StackView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="stephenlanszweert.com.raptorapp.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:contentDescription="@string/app_name"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/returning"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+         />
 
-</StackView>
+    <Button
+        android:id="@+id/btnReturning"
+        android:text="@string/btnReturningString"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newPlayer"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btnNewPlayer"
+        android:text="@string/btnNewPlayerString"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_btn"/>
+
+
+<TextView
+    android:id="@+id/footerText"
+    android:text="@string/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:textSize="20sp"
+    android:gravity="center_horizontal"/>
+
+</LinearLayout>

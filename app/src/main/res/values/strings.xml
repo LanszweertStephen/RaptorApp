@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">RaptorApp</string>
+    <string name="returning">Returning player</string>
+    <string name="btnReturningString">Sign in</string>
+    <string name="newPlayer">New player</string>
+    <string name="btnNewPlayerString">Create account</string>
+    <string name="footer">\u00A9 2018 Raptor</string>
 </resources>
